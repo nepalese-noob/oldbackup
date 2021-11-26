@@ -6,7 +6,7 @@ while true; do
 
 if [ -f /sdcard/download/termux-backup.tgz ]; then 
 cd $HOME/../
-tar -xvzf /sdcard/termux-backup.tgz
+tar -xvzf /sdcard/download/termux-backup.tgz
 
 else 
 
